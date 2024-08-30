@@ -2,13 +2,9 @@ extends Node2D
 
 func _ready():
 	# Ensure the signal is not connected multiple times
-	if %RestartButton == null:
-		print("RestartButton not found!")
-	else:
-		print("RestartButton found")
-		if not %RestartButton.is_connected("pressed", Callable(self, "_on_restart_button_pressed")):
-			%RestartButton.connect("pressed", Callable(self, "_on_restart_button_pressed"))	
-			
+	if not %RestartButton.is_connected("pressed", Callable(self, "_on_restart_button_pressed")):
+		%RestartButton.connect("pressed", Callable(self, "_on_restart_button_pressed"))
+		
 
 func spawn_mob():
 	var new_mob = preload("res://mob.tscn").instantiate()
@@ -46,5 +42,8 @@ func _on_restart_button_pressed():
 	%GameOver.visible = false
 	get_tree().reload_current_scene()
 
-
+func _unhandled_input(event):
+	if event is InputEventKey:
+		if event.pressed and event.keycode == KEY_ESCAPE:
+			get_tree().quit()
 

@@ -1,9 +1,10 @@
-[gd_scene load_steps=6 format=3 uid="uid://b6j3pyhoo3s8m"]
+[gd_scene load_steps=7 format=3 uid="uid://b6j3pyhoo3s8m"]
 
 [ext_resource type="PackedScene" uid="uid://c15vluv5i81gw" path="res://player.tscn" id="1_gn7f5"]
 [ext_resource type="Script" path="res://survivors_game.gd" id="1_h7nk2"]
 [ext_resource type="PackedScene" uid="uid://dnrdjek717jkc" path="res://pine_tree.tscn" id="2_0sof6"]
 [ext_resource type="Theme" uid="uid://dm4fcb18tysjh" path="res://go_button_theme.tres" id="4_3740x"]
+[ext_resource type="PackedScene" uid="uid://cf84j0hewh40d" path="res://joystick.tscn" id="5_gv8j3"]
 
 [sub_resource type="Curve2D" id="Curve2D_gygu7"]
 _data = {
@@ -34,6 +35,9 @@ curve = SubResource("Curve2D_gygu7")
 unique_name_in_owner = true
 position = Vector2(-142, -113)
 rotation = -0.00228102
+
+[node name="Joystick" parent="Player" instance=ExtResource("5_gv8j3")]
+position = Vector2(-654, 325)
 
 [node name="PineTree" parent="." instance=ExtResource("2_0sof6")]
 position = Vector2(415, 579)
