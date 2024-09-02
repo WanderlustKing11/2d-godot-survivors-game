@@ -16,4 +16,8 @@ func shoot():
 	%ShootingPoint.add_child(new_bullet)
 
 func _on_timer_timeout():
+	# Use Spacebar iput to shoot
+	#if Input.is_key_pressed(KEY_SPACE):
+		#shoot()
+	# Automatic shooting
 	shoot()
