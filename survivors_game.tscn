@@ -403,65 +403,67 @@ text = "Restart"
 [node name="PauseInputHandler" type="Node2D" parent="."]
 script = ExtResource("6_3ex5j")
 
-[node name="TopWall" type="StaticBody2D" parent="."]
+[node name="Borders" type="Node2D" parent="."]
+
+[node name="TopWall" type="StaticBody2D" parent="Borders"]
 position = Vector2(957, -1076)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="TopWall"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/TopWall"]
 visible = false
 modulate = Color(0, 0, 0, 1)
 z_index = 10
 position = Vector2(2, 3)
 shape = SubResource("RectangleShape2D_xlpap")
 
-[node name="ColorRect" type="ColorRect" parent="TopWall"]
+[node name="ColorRect" type="ColorRect" parent="Borders/TopWall"]
 offset_left = -2859.0
 offset_top = -13.0
 offset_right = 2891.0
 offset_bottom = 33.0
 color = Color(0.152941, 0.168627, 0.188235, 1)
 
-[node name="LeftWall" type="StaticBody2D" parent="."]
+[node name="LeftWall" type="StaticBody2D" parent="Borders"]
 position = Vector2(-1922, 536)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="LeftWall"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/LeftWall"]
 visible = false
 modulate = Color(0, 0, 0, 1)
 position = Vector2(8, 6)
 shape = SubResource("RectangleShape2D_yyngc")
 
-[node name="ColorRect" type="ColorRect" parent="LeftWall"]
+[node name="ColorRect" type="ColorRect" parent="Borders/LeftWall"]
 offset_left = -14.0
 offset_top = -1625.0
 offset_right = 40.0
 offset_bottom = 1616.0
 color = Color(0.152941, 0.168627, 0.188235, 1)
 
-[node name="RightWall" type="StaticBody2D" parent="."]
+[node name="RightWall" type="StaticBody2D" parent="Borders"]
 position = Vector2(3834, 537)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="RightWall"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/RightWall"]
 visible = false
 modulate = Color(0, 0, 0, 1)
 position = Vector2(0, -1)
 shape = SubResource("RectangleShape2D_m0h0o")
 
-[node name="ColorRect" type="ColorRect" parent="RightWall"]
+[node name="ColorRect" type="ColorRect" parent="Borders/RightWall"]
 offset_left = -30.0
 offset_top = -1624.0
 offset_right = 14.0
 offset_bottom = 1616.0
 color = Color(0.152941, 0.168627, 0.188235, 1)
 
-[node name="BottomWall" type="StaticBody2D" parent="."]
+[node name="BottomWall" type="StaticBody2D" parent="Borders"]
 position = Vector2(959, 2142)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="BottomWall"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/BottomWall"]
 visible = false
 self_modulate = Color(0, 0, 0, 1)
 position = Vector2(2, 0)
 shape = SubResource("RectangleShape2D_dgddj")
 
-[node name="ColorRect" type="ColorRect" parent="BottomWall"]
+[node name="ColorRect" type="ColorRect" parent="Borders/BottomWall"]
 offset_left = -2894.0
 offset_top = -52.0
 offset_right = 2889.0
