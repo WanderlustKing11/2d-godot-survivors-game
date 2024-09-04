@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://b6j3pyhoo3s8m"]
+[gd_scene load_steps=13 format=3 uid="uid://b6j3pyhoo3s8m"]
 
 [ext_resource type="PackedScene" uid="uid://c15vluv5i81gw" path="res://player.tscn" id="1_gn7f5"]
 [ext_resource type="Script" path="res://survivors_game.gd" id="1_h7nk2"]
@@ -14,6 +14,18 @@ _data = {
 }
 point_count = 4
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xlpap"]
+size = Vector2(5848, 60)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yyngc"]
+size = Vector2(80.5, 3273)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_m0h0o"]
+size = Vector2(79, 3264)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dgddj"]
+size = Vector2(5817, 62.5)
+
 [node name="Game" type="Node2D"]
 y_sort_enabled = true
 script = ExtResource("1_h7nk2")
@@ -22,6 +34,11 @@ script = ExtResource("1_h7nk2")
 layer = -30
 
 [node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+anchors_preset = -1
+anchor_left = -1.0
+anchor_top = -1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
 offset_right = 1914.0
 offset_bottom = 1075.0
 metadata/_edit_use_anchors_ = true
@@ -78,6 +95,36 @@ position = Vector2(720, 843)
 [node name="PineTree8" parent="." instance=ExtResource("2_0sof6")]
 position = Vector2(293, 539)
 
+[node name="PineTree9" parent="." instance=ExtResource("2_0sof6")]
+position = Vector2(-759, 547)
+
+[node name="PineTree10" parent="." instance=ExtResource("2_0sof6")]
+position = Vector2(-764, -430)
+
+[node name="PineTree11" parent="." instance=ExtResource("2_0sof6")]
+position = Vector2(966, -601)
+
+[node name="PineTree12" parent="." instance=ExtResource("2_0sof6")]
+position = Vector2(2910, -462)
+
+[node name="PineTree13" parent="." instance=ExtResource("2_0sof6")]
+position = Vector2(2899, 542)
+
+[node name="PineTree14" parent="." instance=ExtResource("2_0sof6")]
+position = Vector2(2728, 1722)
+
+[node name="PineTree15" parent="." instance=ExtResource("2_0sof6")]
+position = Vector2(1126, 1487)
+
+[node name="PineTree16" parent="." instance=ExtResource("2_0sof6")]
+position = Vector2(667, 1727)
+
+[node name="PineTree17" parent="." instance=ExtResource("2_0sof6")]
+position = Vector2(-118, 1337)
+
+[node name="PineTree18" parent="." instance=ExtResource("2_0sof6")]
+position = Vector2(-1319, 1753)
+
 [node name="Timer" type="Timer" parent="."]
 wait_time = 0.5
 autostart = true
@@ -125,6 +172,71 @@ text = "Restart"
 
 [node name="PauseInputHandler" type="Node2D" parent="."]
 script = ExtResource("6_3ex5j")
+
+[node name="TopWall" type="StaticBody2D" parent="."]
+position = Vector2(957, -1076)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TopWall"]
+visible = false
+modulate = Color(0, 0, 0, 1)
+z_index = 10
+position = Vector2(2, 3)
+shape = SubResource("RectangleShape2D_xlpap")
+
+[node name="ColorRect" type="ColorRect" parent="TopWall"]
+offset_left = -2859.0
+offset_top = -13.0
+offset_right = 2891.0
+offset_bottom = 33.0
+color = Color(0.152941, 0.168627, 0.188235, 1)
+
+[node name="LeftWall" type="StaticBody2D" parent="."]
+position = Vector2(-1922, 536)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="LeftWall"]
+visible = false
+modulate = Color(0, 0, 0, 1)
+position = Vector2(8, 6)
+shape = SubResource("RectangleShape2D_yyngc")
+
+[node name="ColorRect" type="ColorRect" parent="LeftWall"]
+offset_left = -14.0
+offset_top = -1625.0
+offset_right = 40.0
+offset_bottom = 1616.0
+color = Color(0.152941, 0.168627, 0.188235, 1)
+
+[node name="RightWall" type="StaticBody2D" parent="."]
+position = Vector2(3834, 537)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RightWall"]
+visible = false
+modulate = Color(0, 0, 0, 1)
+position = Vector2(0, -1)
+shape = SubResource("RectangleShape2D_m0h0o")
+
+[node name="ColorRect" type="ColorRect" parent="RightWall"]
+offset_left = -30.0
+offset_top = -1624.0
+offset_right = 14.0
+offset_bottom = 1616.0
+color = Color(0.152941, 0.168627, 0.188235, 1)
+
+[node name="BottomWall" type="StaticBody2D" parent="."]
+position = Vector2(959, 2142)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BottomWall"]
+visible = false
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(2, 0)
+shape = SubResource("RectangleShape2D_dgddj")
+
+[node name="ColorRect" type="ColorRect" parent="BottomWall"]
+offset_left = -2894.0
+offset_top = -52.0
+offset_right = 2889.0
+offset_bottom = 11.0
+color = Color(0.152941, 0.168627, 0.188235, 1)
 
 [connection signal="health_depleted" from="Player" to="." method="_on_player_health_depleted"]
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
