@@ -45,6 +45,7 @@ metadata/_edit_use_anchors_ = true
 
 [node name="Player" parent="." instance=ExtResource("1_gn7f5")]
 unique_name_in_owner = true
+y_sort_enabled = true
 position = Vector2(958, 537)
 
 [node name="Path2D" type="Path2D" parent="Player"]
@@ -72,6 +73,7 @@ script = ExtResource("7_ecrwq")
 metadata/_edit_use_anchors_ = true
 
 [node name="TreeGroup" type="Node2D" parent="."]
+y_sort_enabled = true
 
 [node name="PineTree" parent="TreeGroup" instance=ExtResource("2_0sof6")]
 position = Vector2(305, 428)
@@ -355,48 +357,8 @@ position = Vector2(-793, 1700)
 [node name="PineTree94" parent="TreeGroup" instance=ExtResource("2_0sof6")]
 position = Vector2(-756, 1609)
 
-[node name="GameOver" type="CanvasLayer" parent="."]
-unique_name_in_owner = true
-visible = false
-
-[node name="ColorRect" type="ColorRect" parent="GameOver"]
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-color = Color(0, 0, 0, 0.513726)
-
-[node name="Label" type="Label" parent="GameOver/ColorRect"]
-layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -43.5
-offset_top = -11.5
-offset_right = 43.5
-offset_bottom = 11.5
-grow_horizontal = 2
-grow_vertical = 2
-theme_override_font_sizes/font_size = 156
-text = "Game Over"
-
-[node name="RestartButton" type="Button" parent="GameOver"]
-unique_name_in_owner = true
-process_mode = 3
-top_level = true
-z_index = 10
-offset_left = 798.0
-offset_top = 701.0
-offset_right = 1160.0
-offset_bottom = 826.0
-theme = ExtResource("4_3740x")
-theme_override_font_sizes/font_size = 80
-text = "Restart"
-
 [node name="Borders" type="Node2D" parent="."]
+y_sort_enabled = true
 
 [node name="TopWall" type="StaticBody2D" parent="Borders"]
 position = Vector2(957, -1076)
@@ -462,6 +424,47 @@ offset_top = -52.0
 offset_right = 2889.0
 offset_bottom = 11.0
 color = Color(0.152941, 0.168627, 0.188235, 1)
+
+[node name="GameOver" type="CanvasLayer" parent="."]
+unique_name_in_owner = true
+visible = false
+
+[node name="ColorRect" type="ColorRect" parent="GameOver"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.513726)
+
+[node name="Label" type="Label" parent="GameOver/ColorRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -43.5
+offset_top = -11.5
+offset_right = 43.5
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 156
+text = "Game Over"
+
+[node name="RestartButton" type="Button" parent="GameOver"]
+unique_name_in_owner = true
+process_mode = 3
+top_level = true
+z_index = 10
+offset_left = 798.0
+offset_top = 701.0
+offset_right = 1160.0
+offset_bottom = 826.0
+theme = ExtResource("4_3740x")
+theme_override_font_sizes/font_size = 80
+text = "Restart"
 
 [node name="PauseInputHandler" type="Node2D" parent="."]
 script = ExtResource("6_3ex5j")
