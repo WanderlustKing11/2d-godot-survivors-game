@@ -355,10 +355,6 @@ position = Vector2(-793, 1700)
 [node name="PineTree94" parent="TreeGroup" instance=ExtResource("2_0sof6")]
 position = Vector2(-756, 1609)
 
-[node name="Timer" type="Timer" parent="."]
-wait_time = 0.5
-autostart = true
-
 [node name="GameOver" type="CanvasLayer" parent="."]
 unique_name_in_owner = true
 visible = false
@@ -399,9 +395,6 @@ offset_bottom = 826.0
 theme = ExtResource("4_3740x")
 theme_override_font_sizes/font_size = 80
 text = "Restart"
-
-[node name="PauseInputHandler" type="Node2D" parent="."]
-script = ExtResource("6_3ex5j")
 
 [node name="Borders" type="Node2D" parent="."]
 
@@ -470,6 +463,13 @@ offset_right = 2889.0
 offset_bottom = 11.0
 color = Color(0.152941, 0.168627, 0.188235, 1)
 
+[node name="PauseInputHandler" type="Node2D" parent="."]
+script = ExtResource("6_3ex5j")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.5
+autostart = true
+
 [connection signal="health_depleted" from="Player" to="." method="_on_player_health_depleted"]
-[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
 [connection signal="pressed" from="GameOver/RestartButton" to="." method="_on_restart_button_pressed"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

@@ -1,6 +1,11 @@
 extends Node2D
 
 
+@export var left_limit = -1880
+@export var right_limit = 3800
+@export var top_limit = -1040
+@export var bottom_limit = 2085
+
 func _ready():
 	#set_process_unhandled_input(true)
 		
@@ -11,9 +16,20 @@ func _ready():
 
 func spawn_mob():
 	var new_mob = preload("res://mob.tscn").instantiate()
+	
+	# Generate a random position along the path
 	%PathFollow2D.progress_ratio = randf()
-	new_mob.global_position = %PathFollow2D.global_position
-	add_child(new_mob)
+	var spawn_position = %PathFollow2D.global_position
+	
+	# Check if the spawn position is within the boundaries
+	if spawn_position.x > left_limit and spawn_position.x < right_limit and spawn_position.y > top_limit and spawn_position.y < bottom_limit:
+		
+		# If within boundaries, spawn the mob
+		new_mob.global_position = spawn_position
+		add_child(new_mob)
+	else:
+		# If out of bounds, retry spawning
+		spawn_mob()
 
 func _on_timer_timeout():
 	spawn_mob()
