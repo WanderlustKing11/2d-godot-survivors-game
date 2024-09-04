@@ -74,58 +74,286 @@ metadata/_edit_use_anchors_ = true
 [node name="TreeGroup" type="Node2D" parent="."]
 
 [node name="PineTree" parent="TreeGroup" instance=ExtResource("2_0sof6")]
-position = Vector2(415, 579)
+position = Vector2(305, 428)
 
 [node name="PineTree2" parent="TreeGroup" instance=ExtResource("2_0sof6")]
-position = Vector2(520, 270)
+position = Vector2(500, 169)
 
 [node name="PineTree3" parent="TreeGroup" instance=ExtResource("2_0sof6")]
-position = Vector2(1323, 312)
+position = Vector2(915, 332)
 
 [node name="PineTree4" parent="TreeGroup" instance=ExtResource("2_0sof6")]
-position = Vector2(1246, 376)
+position = Vector2(1329, 266)
 
 [node name="PineTree5" parent="TreeGroup" instance=ExtResource("2_0sof6")]
-position = Vector2(1368, 440)
+position = Vector2(1411, 191)
 
 [node name="PineTree6" parent="TreeGroup" instance=ExtResource("2_0sof6")]
-position = Vector2(1376, 857)
+position = Vector2(1437, 334)
 
 [node name="PineTree7" parent="TreeGroup" instance=ExtResource("2_0sof6")]
-position = Vector2(720, 843)
+position = Vector2(1554, 669)
 
 [node name="PineTree8" parent="TreeGroup" instance=ExtResource("2_0sof6")]
-position = Vector2(293, 539)
+position = Vector2(1736, 569)
 
 [node name="PineTree9" parent="TreeGroup" instance=ExtResource("2_0sof6")]
-position = Vector2(-759, 547)
+position = Vector2(1537, 963)
 
 [node name="PineTree10" parent="TreeGroup" instance=ExtResource("2_0sof6")]
-position = Vector2(-764, -430)
+position = Vector2(1131, 1028)
 
 [node name="PineTree11" parent="TreeGroup" instance=ExtResource("2_0sof6")]
-position = Vector2(966, -601)
+position = Vector2(774, 958)
 
 [node name="PineTree12" parent="TreeGroup" instance=ExtResource("2_0sof6")]
-position = Vector2(2910, -462)
+position = Vector2(667, 953)
 
 [node name="PineTree13" parent="TreeGroup" instance=ExtResource("2_0sof6")]
-position = Vector2(2899, 542)
+position = Vector2(219, 894)
 
 [node name="PineTree14" parent="TreeGroup" instance=ExtResource("2_0sof6")]
-position = Vector2(2728, 1722)
+position = Vector2(-337, 654)
 
 [node name="PineTree15" parent="TreeGroup" instance=ExtResource("2_0sof6")]
-position = Vector2(1126, 1487)
+position = Vector2(-961, 846)
 
 [node name="PineTree16" parent="TreeGroup" instance=ExtResource("2_0sof6")]
-position = Vector2(667, 1727)
+position = Vector2(-1346, 387)
 
 [node name="PineTree17" parent="TreeGroup" instance=ExtResource("2_0sof6")]
-position = Vector2(-118, 1337)
+position = Vector2(-1448, -254)
 
 [node name="PineTree18" parent="TreeGroup" instance=ExtResource("2_0sof6")]
-position = Vector2(-1319, 1753)
+position = Vector2(-1073, -682)
+
+[node name="PineTree19" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(-171, -362)
+
+[node name="PineTree20" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(171, -565)
+
+[node name="PineTree21" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(977, -335)
+
+[node name="PineTree22" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(1297, -816)
+
+[node name="PineTree23" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(1415, -779)
+
+[node name="PineTree24" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(1500, -720)
+
+[node name="PineTree25" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(1580, -651)
+
+[node name="PineTree26" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(1649, -571)
+
+[node name="PineTree27" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(2316, -683)
+
+[node name="PineTree28" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(3037, -672)
+
+[node name="PineTree29" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(2450, -240)
+
+[node name="PineTree30" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(2962, -229)
+
+[node name="PineTree31" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(2428, 241)
+
+[node name="PineTree32" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(2588, 251)
+
+[node name="PineTree33" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(2770, 251)
+
+[node name="PineTree34" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(2903, 256)
+
+[node name="PineTree35" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(3058, 293)
+
+[node name="PineTree36" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(3090, 410)
+
+[node name="PineTree37" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(2903, 517)
+
+[node name="PineTree38" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(2716, 683)
+
+[node name="PineTree39" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(2593, 849)
+
+[node name="PineTree40" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(2732, 817)
+
+[node name="PineTree41" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(2908, 758)
+
+[node name="PineTree42" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(3063, 779)
+
+[node name="PineTree43" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(2978, 929)
+
+[node name="PineTree44" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(2898, 1062)
+
+[node name="PineTree45" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(2781, 1169)
+
+[node name="PineTree46" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(2680, 1249)
+
+[node name="PineTree47" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(2547, 1393)
+
+[node name="PineTree48" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(1783, 1377)
+
+[node name="PineTree49" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(1671, 1420)
+
+[node name="PineTree50" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(1564, 1505)
+
+[node name="PineTree51" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(1564, 1638)
+
+[node name="PineTree52" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(1575, 1761)
+
+[node name="PineTree53" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(1650, 1873)
+
+[node name="PineTree54" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(1762, 1921)
+
+[node name="PineTree55" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(1885, 1926)
+
+[node name="PineTree56" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(2024, 1926)
+
+[node name="PineTree57" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(2147, 1851)
+
+[node name="PineTree58" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(2206, 1718)
+
+[node name="PineTree59" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(2179, 1574)
+
+[node name="PineTree60" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(2110, 1435)
+
+[node name="PineTree61" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(2009, 1398)
+
+[node name="PineTree62" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(1908, 1366)
+
+[node name="PineTree63" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(130, 1948)
+
+[node name="PineTree64" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(93, 1873)
+
+[node name="PineTree65" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(18, 1809)
+
+[node name="PineTree66" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(23, 1884)
+
+[node name="PineTree67" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(-51, 1974)
+
+[node name="PineTree68" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(-94, 1824)
+
+[node name="PineTree69" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(-78, 1696)
+
+[node name="PineTree70" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(-190, 1685)
+
+[node name="PineTree71" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(-201, 1813)
+
+[node name="PineTree72" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(-190, 1963)
+
+[node name="PineTree73" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(-323, 1990)
+
+[node name="PineTree74" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(-296, 1862)
+
+[node name="PineTree75" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(-317, 1643)
+
+[node name="PineTree76" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(-275, 1504)
+
+[node name="PineTree77" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(-425, 1563)
+
+[node name="PineTree78" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(-398, 1755)
+
+[node name="PineTree79" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(-494, 1680)
+
+[node name="PineTree80" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(-489, 1813)
+
+[node name="PineTree81" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(-436, 1877)
+
+[node name="PineTree82" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(-511, 1941)
+
+[node name="PineTree83" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(-612, 2000)
+
+[node name="PineTree84" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(-607, 1861)
+
+[node name="PineTree85" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(-596, 1728)
+
+[node name="PineTree86" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(-559, 1557)
+
+[node name="PineTree87" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(-671, 1482)
+
+[node name="PineTree88" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(-687, 1642)
+
+[node name="PineTree89" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(-724, 1775)
+
+[node name="PineTree90" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(-719, 1892)
+
+[node name="PineTree91" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(-815, 1967)
+
+[node name="PineTree92" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(-836, 1834)
+
+[node name="PineTree93" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(-793, 1700)
+
+[node name="PineTree94" parent="TreeGroup" instance=ExtResource("2_0sof6")]
+position = Vector2(-756, 1609)
 
 [node name="Timer" type="Timer" parent="."]
 wait_time = 0.5
