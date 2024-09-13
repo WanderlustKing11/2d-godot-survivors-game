@@ -510,6 +510,129 @@ position = Vector2(3720, -1106)
 [node name="PineTree144" parent="TreeGroup/TreesBorder_Top" instance=ExtResource("2_0sof6")]
 position = Vector2(3840, -1106)
 
+[node name="TreesBorder_Left" type="Node2D" parent="TreeGroup"]
+y_sort_enabled = true
+
+[node name="PineTree145" parent="TreeGroup/TreesBorder_Left" instance=ExtResource("2_0sof6")]
+z_index = 1
+position = Vector2(-1910, -993)
+
+[node name="PineTree146" parent="TreeGroup/TreesBorder_Left" instance=ExtResource("2_0sof6")]
+z_index = 1
+position = Vector2(-1910, -880)
+
+[node name="PineTree147" parent="TreeGroup/TreesBorder_Left" instance=ExtResource("2_0sof6")]
+z_index = 1
+position = Vector2(-1910, -770)
+
+[node name="PineTree148" parent="TreeGroup/TreesBorder_Left" instance=ExtResource("2_0sof6")]
+z_index = 1
+position = Vector2(-1910, -660)
+
+[node name="PineTree149" parent="TreeGroup/TreesBorder_Left" instance=ExtResource("2_0sof6")]
+z_index = 1
+position = Vector2(-1910, -550)
+
+[node name="PineTree150" parent="TreeGroup/TreesBorder_Left" instance=ExtResource("2_0sof6")]
+z_index = 1
+position = Vector2(-1910, -440)
+
+[node name="PineTree151" parent="TreeGroup/TreesBorder_Left" instance=ExtResource("2_0sof6")]
+z_index = 1
+position = Vector2(-1910, -330)
+
+[node name="PineTree152" parent="TreeGroup/TreesBorder_Left" instance=ExtResource("2_0sof6")]
+z_index = 1
+position = Vector2(-1910, -220)
+
+[node name="PineTree153" parent="TreeGroup/TreesBorder_Left" instance=ExtResource("2_0sof6")]
+z_index = 1
+position = Vector2(-1910, -110)
+
+[node name="PineTree154" parent="TreeGroup/TreesBorder_Left" instance=ExtResource("2_0sof6")]
+z_index = 1
+position = Vector2(-1910, 0)
+
+[node name="PineTree155" parent="TreeGroup/TreesBorder_Left" instance=ExtResource("2_0sof6")]
+z_index = 1
+position = Vector2(-1910, 110)
+
+[node name="PineTree156" parent="TreeGroup/TreesBorder_Left" instance=ExtResource("2_0sof6")]
+z_index = 1
+position = Vector2(-1910, 220)
+
+[node name="PineTree157" parent="TreeGroup/TreesBorder_Left" instance=ExtResource("2_0sof6")]
+z_index = 1
+position = Vector2(-1910, 330)
+
+[node name="PineTree158" parent="TreeGroup/TreesBorder_Left" instance=ExtResource("2_0sof6")]
+z_index = 1
+position = Vector2(-1910, 440)
+
+[node name="PineTree159" parent="TreeGroup/TreesBorder_Left" instance=ExtResource("2_0sof6")]
+z_index = 1
+position = Vector2(-1910, 550)
+
+[node name="PineTree160" parent="TreeGroup/TreesBorder_Left" instance=ExtResource("2_0sof6")]
+z_index = 1
+position = Vector2(-1910, 660)
+
+[node name="PineTree161" parent="TreeGroup/TreesBorder_Left" instance=ExtResource("2_0sof6")]
+z_index = 1
+position = Vector2(-1910, 770)
+
+[node name="PineTree162" parent="TreeGroup/TreesBorder_Left" instance=ExtResource("2_0sof6")]
+z_index = 1
+position = Vector2(-1910, 880)
+
+[node name="PineTree163" parent="TreeGroup/TreesBorder_Left" instance=ExtResource("2_0sof6")]
+z_index = 1
+position = Vector2(-1910, 990)
+
+[node name="PineTree164" parent="TreeGroup/TreesBorder_Left" instance=ExtResource("2_0sof6")]
+z_index = 1
+position = Vector2(-1910, 1100)
+
+[node name="PineTree165" parent="TreeGroup/TreesBorder_Left" instance=ExtResource("2_0sof6")]
+z_index = 1
+position = Vector2(-1910, 1210)
+
+[node name="PineTree166" parent="TreeGroup/TreesBorder_Left" instance=ExtResource("2_0sof6")]
+z_index = 1
+position = Vector2(-1910, 1320)
+
+[node name="PineTree167" parent="TreeGroup/TreesBorder_Left" instance=ExtResource("2_0sof6")]
+z_index = 1
+position = Vector2(-1910, 1430)
+
+[node name="PineTree168" parent="TreeGroup/TreesBorder_Left" instance=ExtResource("2_0sof6")]
+z_index = 1
+position = Vector2(-1910, 1540)
+
+[node name="PineTree169" parent="TreeGroup/TreesBorder_Left" instance=ExtResource("2_0sof6")]
+z_index = 1
+position = Vector2(-1910, 1650)
+
+[node name="PineTree170" parent="TreeGroup/TreesBorder_Left" instance=ExtResource("2_0sof6")]
+z_index = 1
+position = Vector2(-1910, 1760)
+
+[node name="PineTree171" parent="TreeGroup/TreesBorder_Left" instance=ExtResource("2_0sof6")]
+z_index = 1
+position = Vector2(-1910, 1870)
+
+[node name="PineTree172" parent="TreeGroup/TreesBorder_Left" instance=ExtResource("2_0sof6")]
+z_index = 1
+position = Vector2(-1910, 1980)
+
+[node name="PineTree173" parent="TreeGroup/TreesBorder_Left" instance=ExtResource("2_0sof6")]
+z_index = 1
+position = Vector2(-1910, 2090)
+
+[node name="PineTree174" parent="TreeGroup/TreesBorder_Left" instance=ExtResource("2_0sof6")]
+z_index = 1
+position = Vector2(-1910, 2200)
+
 [node name="Borders" type="Node2D" parent="."]
 y_sort_enabled = true
 
@@ -541,10 +664,10 @@ position = Vector2(8, 6)
 shape = SubResource("RectangleShape2D_yyngc")
 
 [node name="ColorRect" type="ColorRect" parent="Borders/LeftWall"]
-offset_left = -14.0
-offset_top = -1625.0
-offset_right = 40.0
-offset_bottom = 1616.0
+offset_left = -22.0
+offset_top = -1627.0
+offset_right = 32.0
+offset_bottom = 1614.0
 color = Color(0.152941, 0.168627, 0.188235, 1)
 
 [node name="RightWall" type="StaticBody2D" parent="Borders"]
